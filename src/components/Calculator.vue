@@ -9,7 +9,7 @@
 
         <div class="row">
             <div class="col-12">
-                <div id="input">{{currentExpression}}</div>
+                <div style="text-align: right" id="input">{{currentExpression}}</div>
             </div>
         </div>
 
@@ -172,6 +172,8 @@
         margin-top: 5px;
         min-height: 50px;
         font-size: 30px;
+        text-align: right;
+        padding-right: 10px;
     }
 
     #resultField {

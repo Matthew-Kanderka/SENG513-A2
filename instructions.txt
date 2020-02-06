@@ -1,1 +1,8 @@
-URL:
+URL: https://gracious-neumann-55f501.netlify.com/
+Browsers tested: Google Chrome, Mozilla Firefox
+
+How to Deploy:
+
+1. Download and extract assignment2.zip
+2. Run 'yarn install'
+3. Run 'yarn serve'
