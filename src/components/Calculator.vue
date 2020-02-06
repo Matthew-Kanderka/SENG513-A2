@@ -9,7 +9,7 @@
 
         <div class="row">
             <div class="col-12">
-                <div style="text-align: right" id="input">{{currentExpression}}</div>
+                <div id="input">{{currentExpression}}</div>
             </div>
         </div>
 

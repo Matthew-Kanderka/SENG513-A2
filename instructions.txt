@@ -3,6 +3,8 @@ Browsers tested: Google Chrome, Mozilla Firefox
 
 How to Deploy:
 
+Install yarn if you do not have it.
+
 1. Download and extract assignment2.zip
 2. Run 'yarn install'
 3. Run 'yarn serve'
