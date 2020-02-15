@@ -110,12 +110,16 @@
             },
             clear() {
                 this.currentExpression = '';
+                this.result = '';
             },
             backspace() {
                 this.currentExpression = this.currentExpression.substring(0, this.currentExpression.length - 1);
             },
             calculate(expression) {
                 try {
+                    if (expression === "0/0") {
+                        throw new SyntaxError("Cannot divide by Zero");
+                    }
                     let result = eval(expression);
                     this.result = result;
                     this.previousAnswer = result;
@@ -174,11 +178,14 @@
         font-size: 30px;
         text-align: right;
         padding-right: 10px;
+        text-overflow: clip;
+        overflow: hidden;
     }
 
     #resultField {
         min-height: 50px;
         font-size: 30px;
+        text-align: right;
     }
 
     button {
